@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@mipmap/bg">
+
+
+    <TextView
+        android:text="Поле состоит из клеток чёрного и белого цвета. Несколько белых клеток, идущих подряд по горизонтали или по вертикали, называются блоком. Про каждый блок известна сумма цифр, которые должны стоять в этом блоке. Для горизонтальных блоков эта сумма записывается непосредственно слева от блока, а для вертикальных — непосредственно сверху. Во все белые клетки нужно вписать по одной цифре от 1 до 9 так, чтобы, во-первых, сумма цифр в каждом блоке сошлась с указанным числом, а во-вторых, чтобы в каждом блоке все цифры были различны."
+        android:layout_width="match_parent"
+        android:layout_height="530.5dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#ff000000"
+        android:textStyle="normal"
+        android:textSize="15dp" />
+</LinearLayout>

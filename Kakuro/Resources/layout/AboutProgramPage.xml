@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@mipmap/bg">
+
+
+    <TextView
+        android:text="Программа выполнена студентом НИУ ВШЭ по специальности Программная инженерия в виде курсовой работы. Программа реализовывает игру Какуро."
+        android:layout_width="match_parent"
+        android:layout_height="410.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:textStyle="normal"
+        android:textColor="#ff000000"
+        android:textSize="15dp"/>
+    <TextView
+        android:text="БПИ182  Богданов Клим"
+        android:layout_width="match_parent"
+        android:layout_height="28.5dp"
+        android:id="@+id/textView2"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:textStyle="normal"
+        android:textColor="#ff000000"
+        android:textAlignment="textStart"
+        android:textSize="15dp"/>
+    <TextView
+        android:text="2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:textStyle="normal"
+        android:textColor="#ff000000"
+        android:textAlignment="center"
+        android:textSize="15dp"/>
+
+</LinearLayout>

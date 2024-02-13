@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background = "@mipmap/bg">
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:scrollbars="horizontal|vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:scrollbars="horizontal|vertical"
+                android:layout_margin="5dip"
+                android:layout_gravity="center">
+
+                <TableLayout
+                    android:id="@+id/gameFieldLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+            <TableLayout
+                android:id="@+id/gameFieldEditorLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_gravity="center">
+            </TableLayout>
+            <Button
+                android:text="Проверить"
+                android:layout_width="110.5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkButton"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#fffce4ec"
+                android:textColor="#ff000000"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

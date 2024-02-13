@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background = "@mipmap/bg">
+
+    <Button
+        android:text="Легко"
+        android:layout_width="141.3dp"
+        android:layout_height="49.5dp"
+        android:id="@+id/easyButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#fffce4ec"
+        android:textColor="#ff000000"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:text="Нормально"
+        android:layout_width="141.3dp"
+        android:layout_height="49.5dp"
+        android:id="@+id/normalButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#fffce4ec"
+        android:textColor="#ff000000"
+        android:clickable="true"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="Тяжело"
+        android:layout_width="141.3dp"
+        android:layout_height="49.5dp"
+        android:id="@+id/hardButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#fffce4ec"
+        android:textColor="#ff000000"
+        android:clickable="true"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

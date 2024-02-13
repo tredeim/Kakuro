@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kakuro", "Kakuro\Kakuro.csproj", "{27C325E1-706F-4553-85C7-547DDA3B15FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27C325E1-706F-4553-85C7-547DDA3B15FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C325E1-706F-4553-85C7-547DDA3B15FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C325E1-706F-4553-85C7-547DDA3B15FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27C325E1-706F-4553-85C7-547DDA3B15FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C325E1-706F-4553-85C7-547DDA3B15FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C325E1-706F-4553-85C7-547DDA3B15FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87C456DC-B9DB-4F8E-AFC0-12182FE05FDA}
+	EndGlobalSection
+EndGlobal
